@@ -17,6 +17,7 @@
   font-family: Times2;
   src: url(../fonts/Times.ttc);
 }
+
 body {
   font-family: Futura;
   color: #444444;
@@ -161,13 +162,26 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 64px;
+  max-height: 100px;
 }
 
-#header.header-scrolled .logo img,
-#header.header-inner-pages {
+/* Agregago por david */
+#header.header-scrolled .logo img
+{
   content: url(../img/neurogenesis\ grisis\ horizontal.png);
+}
 
+@media (max-width: 991px) {
+  #header .logo img {
+    content: url(../img/apple-touch-icon.png);
+  }
+  #header.header-scrolled .logo img {
+    content: url(../img/apple-touch-icon.png);
+  }
+
+  #header.header-scrolled .mobile-nav-toggle {
+    color: #000;
+  }
 }
 
 
@@ -203,9 +217,9 @@ h6 {
   align-items: center;
   justify-content: space-between;
   padding: 0 3px;
-  font-family: Futura;
-  font-size: 15px;
-  font-weight: 600;
+  font-family: "Futura";
+  font-size: 20px;
+  font-weight: 100;
   color: rgb(179, 179, 179);
   white-space: nowrap;
   transition: 0.3s;
@@ -337,7 +351,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -349,6 +363,8 @@ h6 {
   .mobile-nav-toggle {
     display: block;
   }
+
+  
 
   .navbar ul {
     display: none;
@@ -365,6 +381,7 @@ h6 {
   background: rgba(28, 47, 65, 0.9);
   transition: 0.3s;
   z-index: 999;
+  
 }
 
 .navbar-mobile .mobile-nav-toggle {
@@ -406,7 +423,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #5846f9;
+  color: #797979;
 }
 
 .navbar-mobile .getstarted,
@@ -441,7 +458,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #5846f9;
+  color: #797979;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
