@@ -220,7 +220,7 @@ h6 {
   font-family: "Futura";
   font-size: 20px;
   font-weight: 100;
-  color: rgb(179, 179, 179);
+  color: rgb(255, 255, 255);
   white-space: nowrap;
   transition: 0.3s;
   position: relative;
@@ -601,7 +601,7 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 100px 0;
+  padding: 50px 0;
   overflow: hidden;
 }
 
