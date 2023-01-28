@@ -173,10 +173,10 @@ h6 {
 
 @media (max-width: 991px) {
   #header .logo img {
-    content: url(../img/apple-touch-icon.png);
+    content: url(../img/neurogenesis\ SOLO\ LOGO_blanco.png);
   }
   #header.header-scrolled .logo img {
-    content: url(../img/apple-touch-icon.png);
+    content: url(../img/neurogenesis\ SOLO\ LOGO_gris.png);
   }
 
   #header.header-scrolled .mobile-nav-toggle {
