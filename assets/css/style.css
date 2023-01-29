@@ -178,6 +178,7 @@ h6 {
   }
   #header.header-scrolled .logo img {
     content: url(../img/neurogenesis\ SOLO\ LOGO_gris.png);
+    width: 50%;
   }
 
   #header.header-scrolled .mobile-nav-toggle {
