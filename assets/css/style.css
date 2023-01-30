@@ -171,7 +171,7 @@ h6 {
   content: url(../img/neurogenesis\ grisis\ horizontal.png);
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1350px) {
   #header .logo img {
     content: url(../img/neurogenesis\ SOLO\ LOGO_blanco.png);
     width: 50%;
