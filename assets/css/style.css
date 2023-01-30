@@ -1801,3 +1801,8 @@ section {
   padding-bottom: 20px;
   position: relative;
 }
+
+/* para el banner del pie de pagina */
+.pie-foto{
+  margin-top: -40px;
+}
