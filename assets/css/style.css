@@ -139,8 +139,10 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
-  background: rgb(255, 255, 255);
-  padding: 12px 0;
+  background: rgb(255, 255, 255,0);
+  /* padding: 12px 0; */
+  margin-bottom: 10px;;
+
 }
 
 #header.header-scrolled,
@@ -319,7 +321,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #5846f9;
+  color: #797979;
 }
 
 .navbar .dropdown:hover>ul {
@@ -483,7 +485,7 @@ h6 {
 
 #hero .container,
 #hero .container-fluid {
-  padding-top: 84px;
+  padding-top: 120px;
 }
 
 #hero h1 {
