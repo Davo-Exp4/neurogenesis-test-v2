@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 @font-face {
   font-family: Futura;
-  src: url(../fonts/Futura.ttc);
+  src: url(../fonts/futura\ medium\ bt.ttf) format("truetype");
 }
 
 @font-face {
@@ -19,7 +19,7 @@
 }
 
 body {
-  font-family: Futura;
+  font-family: Futura, sans-serif;
   color: #000000;
 }
 
@@ -40,6 +40,11 @@ h4,
 h5,
 h6 {
   font-family: Futura;
+}
+
+p {
+  font-size: 20px;
+  text-align: justify;
 }
 
 /*--------------------------------------------------------------
