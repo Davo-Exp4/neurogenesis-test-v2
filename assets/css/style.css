@@ -49,6 +49,8 @@ p {
 
 .texto-alineado {
   text-align: justify;
+  line-height: 1.1;
+  font-size: 17px;
 }
 
 .titulo-resaltado{
@@ -192,6 +194,7 @@ p {
   #header .logo img {
     content: url(../img/neurogenesis\ SOLO\ LOGO_gris.png);
     width: 30% !important;
+    
   }
   #header.header-scrolled .logo img {
     content: url(../img/neurogenesis\ SOLO\ LOGO_gris.png);
